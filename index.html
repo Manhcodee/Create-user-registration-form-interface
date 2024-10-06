@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Form login user</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<form action="">
-  <span></span>
+<form action="http://demo.codegym.vn/6/registration_form/register.php">
+    <span class="text">Họ và tên:</span>
+    <input type="text" name="name">
+    <span class="text">Email:</span>
+    <input type="email" name="email">
+    <span class="text">Số điện thoại:</span>
+    <input type="tel" name="phone">
+    <span class="text">Giới tính:</span>
+    <div class="gender">
+        <input class="gender-input" type="radio" name="gender"> Nam
+        <input class="gender-input" type="radio" name="gender"> Nữ
+    </div>
+    <input class="submit" type="submit" value="Đăng ký">
 </form>
 </body>
 </html>
